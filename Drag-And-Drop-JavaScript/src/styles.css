@@ -1,0 +1,60 @@
+    .th1 {
+        font-weight: bold;
+        font-size: .7em;
+        text-align: center;
+        border: solid .1em;
+    }
+
+    .tc1 {
+        border: solid .1em;
+        background-color: white;
+        text-align: center;
+    }
+
+    .tcb {
+        background-color: gray;
+        border-left: solid .1em;
+        border-right: solid .1em;
+    }
+
+    .lc {
+        font-size: .7em;
+        font-weight: bold;
+        text-align: center;
+        border-top: solid .1em;
+        border-left: solid .1em;
+    }
+
+    .emptyLc {
+        border-left: solid .1em;
+    }
+
+    #Stakeholders {
+        border: solid .1em;
+    }
+
+    .trow {
+        border: solid .1em;
+    }
+
+    .spline {
+        background-color: yellow;
+        height: .2em;
+    }
+
+    .pbtn {
+        font-family: arial narrow;
+        font-weight: bold;
+        font-size: 0.7em;
+        border-radius: 1em;
+    }
+
+    .controlBtn {
+        font-family: arial;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: .2em 1em .2em 1em;
+        color: white;
+        background-color: #555;
+        border-radius: 20px 0 15px 0;
+    }
