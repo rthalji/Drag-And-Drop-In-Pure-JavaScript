@@ -22,7 +22,6 @@
         };
 
         function depictTable() {
-            //alert("depictTable called ............");
             document.write("<div class='row'>" +
                 "<div class='th1 col-2'>&nbsp;</div>" +
                 "<div class='th1 col-2'>Initiation</div>" +
@@ -47,7 +46,6 @@
         }
 
         function depictRows(leftTitle, v1, v2, v3, v4, v5) {
-            //alert("depictRows called ............");
             const emptyLcDat = "<div class='emptyLc col-2'>&nbsp;</div>";
             const argAry = ["0", v1, v2, v3, v4, v5];
             const sepLine = "<div class='spline col-12'></div>";
@@ -60,7 +58,6 @@
 
             for (var i = 1; i <= 5; i++) {
                 if (argAry[i] == "0") {
-                    //str1 = str1 + "<div id='" + argAry[i] + "' class='tcb col-2'>" + "" + "</div>";
                     str1 = str1 + "<div class='tcb col-2'>" + "" + "</div>";
                 } else {
                     str1 = str1 + "<div id='" + argAry[i]
@@ -74,7 +71,6 @@
         }
 
         function depictIcons() {
-            // alert("depictIcons() called......");
             var strBtn = "";
             var btnAry = [];
             for (var i = 1; i <= 19; i++) {
@@ -99,7 +95,6 @@
             for (var i = 1; i <= numIcons; i++) {
                 var btn = document.querySelector("#btnp" + i);
                 var pn = document.querySelector("#p" + i);
-                //console.log("pn = " + pn.id + "   btn = " + btn.id);
                 moveElement(btn, pn);
                 document.getElementById(pn.id).style.backgroundColor = "green";
             }
@@ -120,10 +115,8 @@
             const psrc = document.getElementById(ev.target.id);
             const psrcParent = psrc.parentElement.id;
             if (psrcParent != "dragbox") { document.getElementById(psrcParent).style.backgroundColor = "white"; }
-            //console.log("psrc.id = " + psrc.id + " psrc.parentElement.id = " + psrc.parentElement.id);
-
+            
             ev.dataTransfer.setData("text", ev.target.id);
-            //console.log("ev.target.id) = " + ev.target.id)
         }
 
         function drop(ev) {
