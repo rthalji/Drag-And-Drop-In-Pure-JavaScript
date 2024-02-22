@@ -7,3 +7,8 @@ Created by Trainer Riad Thalji
 Owner Riad Thalji Training Establishment RTE-Training Since 2012 to present.
 
 ![Screenshot 2023-12-12 195526](https://github.com/rthalji/Drag-And-Drop-In-Pure-JavaScript/assets/59248461/c31ba597-39aa-4fc9-8d65-8ef719322c25)
+
+Here is a youtube video describing a real example of application:
+https://www.youtube.com/watch?v=bcd_8P0bMrE
+
+
